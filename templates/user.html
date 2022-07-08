@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="no-referrer"/>
+    <title>星瞳网</title>
+    <link rel="icon" href="/static/images/favicon.png">
+    <link rel="stylesheet" href="/static/css/font.css">
+    <link rel="stylesheet" href="/static/css/header.css">
+    <link rel="stylesheet" href="/static/css/user.css">
+    <script src="/static/js/jquery-3.6.0.js"></script>
+    <script src="/static/js/user.js"></script>
+    <script src="/static/js/header.js"></script>
+</head>
+<body>
+<div id="user_id" d="{{ user_id }}" style="display: none"></div>
+<header>
+    <div class="header-wrapper">
+        <div class="icon">
+            <img src="/static/images/icon.png">
+        </div>
+        <a href="/">首页</a>
+        <a href="/user/1">用户推荐</a>
+        <a href="/login">登录</a>
+        <a href="#" onclick="logout()">注销</a>
+        <script id="rrbayJs" src="//wza.rrbay.com/js/wza.min.js?5bf3b98f90f01a055cad541b" type="text/javascript"></script>
+        <a id="wzayd" title="盲人朋友在线浏览按住Alt+g键" href="javascript:;" class="wzayd" accesskey="g">无障碍阅读</a>
+    </div>
+</header>
+<div id="content-wrapper">
+</div>
+</body>
+</html>

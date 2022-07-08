@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>星瞳网</title>
+        <link rel="icon" href="/static/images/favicon.png">
+    <link rel="stylesheet" href="/static/css/font.css">
+    <link rel="stylesheet" href="/static/css/header.css">
+    <link rel="stylesheet" href="/static/css/login.css">
+    <script src="/static/js/jquery-3.6.0.js"></script>
+    <script src="/static/js/header.js"></script>
+</head>
+<body>
+<header>
+    <div class="header-wrapper">
+        <div class="icon">
+            <img src="/static/images/icon.png">
+        </div>
+        <a href="/">首页</a>
+        <a href="/user/1">用户推荐</a>
+        <a href="/login">登录</a>
+        <a href="#" onclick="logout()">注销</a>
+        <script id="rrbayJs" src="//wza.rrbay.com/js/wza.min.js?5bf3b98f90f01a055cad541b" type="text/javascript"></script>
+        <a id="wzayd" title="盲人朋友在线浏览按住Alt+g键" href="javascript:;" class="wzayd" accesskey="g">无障碍阅读</a>
+    </div>
+</header>
+<div class="feedback"></div>
+  <div class="box">
+    <h2>用户登录</h2>
+    <form>
+      <div>
+        <input type="text" name="user_id" required="">
+        <label>用户id</label>
+      </div>
+      <div>
+        <input type="password" name="password" required="">
+        <label>密码</label>
+      </div>
+      <input type="submit" value="登录">
+    </form>
+  </div>
+</body>
+</html>
+<script src="/static/js/login.js"></script>

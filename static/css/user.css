@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rubik, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    background: #dff9fb;
+}
+
+#content-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 60%;
+    left: 20%;
+}
+
+.item{
+    display: flex;
+    border-bottom: 2px solid #ddd;
+    background: #fff;
+    text-decoration: none;
+    color: #000;
+    transition: all ease-in-out 0.5s;
+}
+
+.item .head-pic{
+    min-width: 427px;
+    min-height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.5s;
+}
+.item .head-pic:hover,
+.item .head-pic:focus{
+    min-width: 640px;
+    min-height: 330px;
+}
+.item .head-pic:hover img,
+.item .head-pic:focus img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.head-pic img{
+    max-width: 80%;
+    max-height: 80%;
+    transition: all ease-in-out 0.5s;
+}
+
+.item .word-box{
+    margin: 20px;
+}
+
+.word-box h1{
+    font-family: Rubik, sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    transition: all ease-in-out 0.5s;
+}
+.word-box h1:hover,
+.word-box h1:focus{
+    font-size: 3em;
+    color: red;
+    font-weight: 700;
+}
+
+.word-box h2{
+    font-family: Rubik, sans-serif;
+    font-size: 1.2em;
+    font-weight: 200;
+    margin: 15px 15px 15px 0;
+    padding: 5px;
+    background: #393D49;
+    border-radius: 12px;
+    width: 60px;
+    text-align: center;
+    color: #fff;
+    transition: all ease-in-out 0.5s;
+}
+.word-box h2:hover,
+.word-box h2:focus{
+    width: 120px;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.word-box p{
+    font-family: Rubik, sans-serif;
+    font-size: 1em;
+    font-weight: 200;
+    transition: all ease-in-out 0.5s;
+}
+.word-box p:hover,
+.word-box p:focus{
+    font-size: 2em;
+    font-weight: 700;
+}

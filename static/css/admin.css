@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rubik, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    background: #dff9fb;
+}
+
+.container{
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    position: relative;
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
+    padding: 20px;
+}
+
+.container h1{
+    cursor: default;
+    font-size: 4.5em;
+    font-family: Rubik, sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #393D49;
+}
+
+.charts-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+  position: relative;
+  left: 10%;
+  width: 80%;
+  background: #fff;
+    margin-top: 100px;
+  padding: 40px;
+  box-sizing: border-box;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.box h2{
+  font-family: Rubik, sans-serif;
+  font-weight: 500;
+  font-size: 4em;
+  margin: 0 0 40px;
+  padding: 0;
+  color: #f7497d;
+  text-transform: uppercase;
+  cursor: default;
+}
+
+.box input{
+  padding: 10px 0;
+  margin-bottom: 30px;
+  font-size: 3em;
+  font-family: Rubik, sans-serif;
+  font-weight: 200;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #999;
+}
+
+.box input[type="submit"]{
+  border-bottom: none;
+  cursor: pointer;
+  background: #f7497d;
+  color: #fff;
+  font-family: Rubik, sans-serif;
+  font-weight: 500;
+  font-size: 2.5em;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  transition: 0.5s ease-in-out all;
+}
+
+.box input[type="submit"]:hover,
+.box input[type="submit"]:focus{
+  background: #dff9fb;
+  color: #2c3e50;
+}
+
+.box form div{
+  position: relative;
+}
+
+.box form div label{
+  position: absolute;
+  top: 15px;
+  pointer-events: none;
+  left: 0;
+  color: #999;
+  transition: 0.5s;
+  font-family: Rubik, sans-serif;
+  font-weight: 200;
+  font-size: 3em;
+}
+
+.box input:focus ~ label,
+.box input:valid ~ label{
+  top: -28px;
+  left: 0;
+  color: #f7497d;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.box input[type="text"]:focus,
+.box input[type="email"]:focus,
+.box input[type="password"]:focus,
+.box input[type="text"]:valid,
+.box input[type="email"]:valid,
+.box input[type="password"]:valid{
+  border-bottom: 2px solid #f7497d;
+}

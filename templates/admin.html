@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta name="referrer" content="no-referrer"/>
+    <title>星瞳网</title>
+    <link rel="icon" href="/static/images/favicon.png">
+    <link rel="stylesheet" href="/static/css/font.css">
+    <link rel="stylesheet" href="/static/css/header.css">
+    <link rel="stylesheet" href="/static/css/admin.css">
+    <script src="/static/js/jquery-3.6.0.js"></script>
+    <script src="/static/js/echarts.js"></script>
+    <script src="/static/js/header.js"></script>
+</head>
+<body>
+<header>
+    <div class="header-wrapper">
+        <div class="icon">
+            <img src="/static/images/icon.png">
+        </div>
+        <a href="/">首页</a>
+        <a href="/user/1">用户推荐</a>
+        <a href="/login">登录</a>
+        <a href="#" onclick="logout()">注销</a>
+        <script id="rrbayJs" src="//wza.rrbay.com/js/wza.min.js?5bf3b98f90f01a055cad541b" type="text/javascript"></script>
+        <a id="wzayd" title="盲人朋友在线浏览按住Alt+g键" href="javascript:;" class="wzayd" accesskey="g">无障碍阅读</a>
+    </div>
+</header>
+<div class="container">
+    <h1>星瞳 | DashBoard</h1>
+    <div class="charts-container">
+        <div id="category-chart" style="width: 600px;height: 400px"></div>
+        <div id="top-news-chart" style="width: 800px;height: 400px"></div>
+    </div>
+    <div class="charts-container">
+        <div id="time-distri-chart" style="width: 1600px;height: 400px"></div>
+    </div>
+    <div class="charts-container">
+        <div id="users-like-chart" style="width: 600px;height: 400px"></div>
+        <div id="top-readers-chart" style="width: 800px;height: 400px"></div>
+    </div>
+</div>
+<div class="box">
+        <h2>新增新闻</h2>
+        <form action="/api/news/add_news" method="post">
+            <div>
+                <input type="text" name="news_id" required="">
+                <label>新闻ID</label>
+            </div>
+            <div>
+                <input type="text" name="url" required="">
+                <label>新闻url</label>
+            </div>
+            <div>
+                <input type="text" name="title" required="">
+                <label>标题</label>
+            </div>
+            <div>
+                <input type="text" name="head_img" required="">
+                <label>头图url</label>
+            </div>
+            <div>
+                <input type="text" name="category" required="">
+                <label>类别</label>
+            </div>
+            <div>
+                <input type="text" name="tag" required="">
+                <label>标签</label>
+            </div>
+            <div>
+                <input type="text" name="description" required="">
+                <label>描述</label>
+            </div>
+            <input type="submit" value="新增">
+            </form>
+        </div>
+<div style="height: 80px"></div>
+</body>
+</html>
+<script src="/static/js/admin.js"></script>
