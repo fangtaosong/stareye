@@ -8,7 +8,7 @@
 
 示例微信小程序（线上版）：
 
-<center><img src=" http://myimg2.constfrost.com//星瞳网.jpg " width="30%"></center>
+![](http://myimg2.constfrost.com//星瞳网.jpg){:height="30%" width="30%"}
 
 示例微信小程序（预览版）
 
