@@ -8,7 +8,7 @@
 
 示例微信小程序（线上版）：
 
-![](http://myimg2.constfrost.com//gh_e7159b576390_1280 (1).jpg)
+![](http://myimg2.constfrost.com//gh_e7159b576390_1280(1).jpg)
 
 示例微信小程序（预览版）
 
