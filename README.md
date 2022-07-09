@@ -8,11 +8,13 @@
 
 示例微信小程序（线上版）：
 
+<img src="http://myimg2.constfrost.com//星瞳网.jpg" width="30">
+
 ![](http://myimg2.constfrost.com//星瞳网.jpg){:height="30%" width="30%"}
 
 示例微信小程序（预览版）
 
-<center><img src=" http://myimg2.constfrost.com//oi3M25CTa8ftzH1qCojqrBu6LdAc.jpg" width="30%"></center>
+<img src=" http://myimg2.constfrost.com//oi3M25CTa8ftzH1qCojqrBu6LdAc.jpg" width="30%">
 
 
 安装前确保5000端口未被占用
