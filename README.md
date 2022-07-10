@@ -6,14 +6,15 @@
 
 实例站点2：[星瞳网（http://39.105.138.249:5000/）](http://39.105.138.249:5000/)
 
-示例微信小程序（线上版）：
+
+示例微信小程序（预览版）(右上角——>开发调试——>打开调试 否则可能无法浏览新闻)
+
+<img src="http://myimg2.constfrost.com//oi3M25CTa8ftzH1qCojqrBu6LdAc.jpg" width="150">
+
+示例微信小程序（线上版）(先进预览版——>右上角——>开发调试——>打开调试 否则可能无法浏览新闻)
 
 <img src="http://myimg2.constfrost.com//星瞳网.jpg" width="150">
 
-
-示例微信小程序（预览版）
-
-<img src="http://myimg2.constfrost.com//oi3M25CTa8ftzH1qCojqrBu6LdAc.jpg" width="150">
 
 
 安装前确保5000端口未被占用
